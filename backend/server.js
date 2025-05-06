@@ -2,7 +2,7 @@ import express from "express"
 import helmet from "helmet"
 import dotenv from "dotenv"
 import {sql} from "./config/db.js"
-import {initDb} from "./database/initDb.js"
+import {initDb} from "./database/initdb.js"
 import userRoutes from "./routes/userRoutes.js"
 import agentRoutes from "./routes/agentRoutes.js"
 
